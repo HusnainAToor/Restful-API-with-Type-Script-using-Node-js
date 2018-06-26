@@ -1,0 +1,323 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\\\node\\node',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.31
+4 verbose node symlink C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\\node\node
+5 warn package.json iwa_project@1.0.0 No description
+6 warn package.json iwa_project@1.0.0 No repository field.
+7 warn package.json iwa_project@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'D:\\Ajinkya Project\\Node.js\\iwa_project',
+9 verbose install   [ 'express',
+9 verbose install     'jsonwebtoken',
+9 verbose install     'pg',
+9 verbose install     'reflect-metadata',
+9 verbose install     'typeorm',
+9 verbose install     '@types/chai',
+9 verbose install     '@types/express',
+9 verbose install     '@types/jsonwebtoken',
+9 verbose install     '@types/mocha',
+9 verbose install     '@types/node',
+9 verbose install     '@types/supertest',
+9 verbose install     'chai',
+9 verbose install     'mocha',
+9 verbose install     'supertest',
+9 verbose install     'ts-node',
+9 verbose install     'typescript' ] ]
+10 info preinstall iwa_project@1.0.0
+11 warn package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+12 verbose readDependencies using package.json deps
+13 verbose already installed skipping express@4.16.3 D:\Ajinkya Project\Node.js\iwa_project
+14 verbose already installed skipping jsonwebtoken@8.2.1 D:\Ajinkya Project\Node.js\iwa_project
+15 verbose already installed skipping pg@^7.4.1 D:\Ajinkya Project\Node.js\iwa_project
+16 verbose already installed skipping reflect-metadata@0.1.12 D:\Ajinkya Project\Node.js\iwa_project
+17 verbose already installed skipping typeorm@0.1.21 D:\Ajinkya Project\Node.js\iwa_project
+18 verbose cache add [ '@types/chai@4.1.2', null ]
+19 verbose cache add name=undefined spec="@types/chai@4.1.2" args=["@types/chai@4.1.2",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '@types/chai@4.1.2',
+20 verbose parsed url   path: '@types/chai@4.1.2',
+20 verbose parsed url   href: '@types/chai@4.1.2' }
+21 verbose cache add [ '@types/express@4.11.1', null ]
+22 verbose cache add name=undefined spec="@types/express@4.11.1" args=["@types/express@4.11.1",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '@types/express@4.11.1',
+23 verbose parsed url   path: '@types/express@4.11.1',
+23 verbose parsed url   href: '@types/express@4.11.1' }
+24 verbose cache add [ '@types/jsonwebtoken@7.2.6', null ]
+25 verbose cache add name=undefined spec="@types/jsonwebtoken@7.2.6" args=["@types/jsonwebtoken@7.2.6",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '@types/jsonwebtoken@7.2.6',
+26 verbose parsed url   path: '@types/jsonwebtoken@7.2.6',
+26 verbose parsed url   href: '@types/jsonwebtoken@7.2.6' }
+27 verbose cache add [ '@types/mocha@5.1.0', null ]
+28 verbose cache add name=undefined spec="@types/mocha@5.1.0" args=["@types/mocha@5.1.0",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '@types/mocha@5.1.0',
+29 verbose parsed url   path: '@types/mocha@5.1.0',
+29 verbose parsed url   href: '@types/mocha@5.1.0' }
+30 verbose cache add [ '@types/node@9.6.5', null ]
+31 verbose cache add name=undefined spec="@types/node@9.6.5" args=["@types/node@9.6.5",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '@types/node@9.6.5',
+32 verbose parsed url   path: '@types/node@9.6.5',
+32 verbose parsed url   href: '@types/node@9.6.5' }
+33 verbose cache add [ '@types/supertest@2.0.4', null ]
+34 verbose cache add name=undefined spec="@types/supertest@2.0.4" args=["@types/supertest@2.0.4",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '@types/supertest@2.0.4',
+35 verbose parsed url   path: '@types/supertest@2.0.4',
+35 verbose parsed url   href: '@types/supertest@2.0.4' }
+36 verbose already installed skipping chai@4.1.2 D:\Ajinkya Project\Node.js\iwa_project
+37 verbose already installed skipping mocha@5.1.1 D:\Ajinkya Project\Node.js\iwa_project
+38 verbose already installed skipping supertest@3.0.0 D:\Ajinkya Project\Node.js\iwa_project
+39 verbose already installed skipping ts-node@6.0.0 D:\Ajinkya Project\Node.js\iwa_project
+40 verbose already installed skipping typescript@2.8.1 D:\Ajinkya Project\Node.js\iwa_project
+41 verbose cache add name="" spec="types/chai@4.1.2" args=["","types/chai@4.1.2"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'types/chai@4.1.2',
+42 verbose parsed url   path: 'types/chai@4.1.2',
+42 verbose parsed url   href: 'types/chai@4.1.2' }
+43 verbose cache add name="" spec="types/express@4.11.1" args=["","types/express@4.11.1"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'types/express@4.11.1',
+44 verbose parsed url   path: 'types/express@4.11.1',
+44 verbose parsed url   href: 'types/express@4.11.1' }
+45 verbose cache add name="" spec="types/jsonwebtoken@7.2.6" args=["","types/jsonwebtoken@7.2.6"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'types/jsonwebtoken@7.2.6',
+46 verbose parsed url   path: 'types/jsonwebtoken@7.2.6',
+46 verbose parsed url   href: 'types/jsonwebtoken@7.2.6' }
+47 verbose cache add name="" spec="types/mocha@5.1.0" args=["","types/mocha@5.1.0"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'types/mocha@5.1.0',
+48 verbose parsed url   path: 'types/mocha@5.1.0',
+48 verbose parsed url   href: 'types/mocha@5.1.0' }
+49 verbose cache add name="" spec="types/node@9.6.5" args=["","types/node@9.6.5"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: 'types/node@9.6.5',
+50 verbose parsed url   path: 'types/node@9.6.5',
+50 verbose parsed url   href: 'types/node@9.6.5' }
+51 verbose cache add name="" spec="types/supertest@2.0.4" args=["","types/supertest@2.0.4"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'types/supertest@2.0.4',
+52 verbose parsed url   path: 'types/supertest@2.0.4',
+52 verbose parsed url   href: 'types/supertest@2.0.4' }
+53 verbose cache add name="types/chai" spec="4.1.2" args=["types/chai","4.1.2"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '4.1.2',
+54 verbose parsed url   path: '4.1.2',
+54 verbose parsed url   href: '4.1.2' }
+55 verbose addNamed [ 'types/chai', '4.1.2' ]
+56 verbose addNamed [ '4.1.2', '4.1.2' ]
+57 verbose cache add name="types/express" spec="4.11.1" args=["types/express","4.11.1"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '4.11.1',
+58 verbose parsed url   path: '4.11.1',
+58 verbose parsed url   href: '4.11.1' }
+59 verbose addNamed [ 'types/express', '4.11.1' ]
+60 verbose addNamed [ '4.11.1', '4.11.1' ]
+61 verbose cache add name="types/jsonwebtoken" spec="7.2.6" args=["types/jsonwebtoken","7.2.6"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '7.2.6',
+62 verbose parsed url   path: '7.2.6',
+62 verbose parsed url   href: '7.2.6' }
+63 verbose addNamed [ 'types/jsonwebtoken', '7.2.6' ]
+64 verbose addNamed [ '7.2.6', '7.2.6' ]
+65 verbose cache add name="types/mocha" spec="5.1.0" args=["types/mocha","5.1.0"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '5.1.0',
+66 verbose parsed url   path: '5.1.0',
+66 verbose parsed url   href: '5.1.0' }
+67 verbose addNamed [ 'types/mocha', '5.1.0' ]
+68 verbose addNamed [ '5.1.0', '5.1.0' ]
+69 verbose cache add name="types/node" spec="9.6.5" args=["types/node","9.6.5"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: '9.6.5',
+70 verbose parsed url   path: '9.6.5',
+70 verbose parsed url   href: '9.6.5' }
+71 verbose addNamed [ 'types/node', '9.6.5' ]
+72 verbose addNamed [ '9.6.5', '9.6.5' ]
+73 verbose cache add name="types/supertest" spec="2.0.4" args=["types/supertest","2.0.4"]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: '2.0.4',
+74 verbose parsed url   path: '2.0.4',
+74 verbose parsed url   href: '2.0.4' }
+75 verbose addNamed [ 'types/supertest', '2.0.4' ]
+76 verbose addNamed [ '2.0.4', '2.0.4' ]
+77 silly lockFile 6539d726-types-chai-4-1-2 types/chai@4.1.2
+78 verbose lock types/chai@4.1.2 C:\Users\Abhi\AppData\Roaming\npm-cache\6539d726-types-chai-4-1-2.lock
+79 silly lockFile cebdc036-types-express-4-11-1 types/express@4.11.1
+80 verbose lock types/express@4.11.1 C:\Users\Abhi\AppData\Roaming\npm-cache\cebdc036-types-express-4-11-1.lock
+81 silly lockFile db176788-types-jsonwebtoken-7-2-6 types/jsonwebtoken@7.2.6
+82 verbose lock types/jsonwebtoken@7.2.6 C:\Users\Abhi\AppData\Roaming\npm-cache\db176788-types-jsonwebtoken-7-2-6.lock
+83 silly lockFile 90479e43-types-mocha-5-1-0 types/mocha@5.1.0
+84 verbose lock types/mocha@5.1.0 C:\Users\Abhi\AppData\Roaming\npm-cache\90479e43-types-mocha-5-1-0.lock
+85 silly lockFile 0ef8d84f-types-node-9-6-5 types/node@9.6.5
+86 verbose lock types/node@9.6.5 C:\Users\Abhi\AppData\Roaming\npm-cache\0ef8d84f-types-node-9-6-5.lock
+87 silly lockFile 746ff636-types-supertest-2-0-4 types/supertest@2.0.4
+88 verbose lock types/supertest@2.0.4 C:\Users\Abhi\AppData\Roaming\npm-cache\746ff636-types-supertest-2-0-4.lock
+89 verbose registry.get types/express not expired, no request
+90 error TypeError: Cannot read property '4.11.1' of undefined
+90 error     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\npm\node_modules\npm\lib\cache.js:844:27
+90 error     at RegClient.get_ (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\npm\node_modules\npm-registry-client\lib\get.js:111:14)
+90 error     at RegClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\npm\node_modules\npm-registry-client\lib\get.js:47:12)
+90 error     at fs.js:271:14
+90 error     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\npm\node_modules\graceful-fs\graceful-fs.js:105:5
+90 error     at Object.oncomplete (fs.js:107:15)
+91 error If you need help, you may report this *entire* log,
+91 error including the npm and node versions, at:
+91 error     <http://github.com/npm/npm/issues>
+92 error System Windows_NT 6.2.9200
+93 error command "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\\\node\\node" "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+94 error cwd D:\Ajinkya Project\Node.js\iwa_project
+95 error node -v v0.10.31
+96 error npm -v 1.4.9
+97 error type non_object_property_load
+98 verbose exit [ 1, true ]
